@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flipper{
+    color: black;
+}
+
+#change{
+    height: 875px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.back{
+    display: flex;
+    max-width: 700px;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+button{
+    height: 50px;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 50px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
